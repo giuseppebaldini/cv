@@ -1,0 +1,162 @@
+% ==================================================
+%            CV - Giuseppe Baldini - 2022            
+% ================================================== 
+
+% --------------------------------------------------
+%                        SETUP  
+% --------------------------------------------------
+
+\documentclass{report}
+\author{Giuseppe Baldini}
+
+% Import packages from packages.tex
+\input{packages}
+
+% ------------------ NEW COMMANDS ------------------
+
+% Space centered dot space ( · ) 
+\newcommand{\spacedot}{\hspace{4pt} · \hspace{4pt}}
+
+% Code keywords in monospace font
+\newcommand{\code}[1]{\texttt{#1}} 
+
+% Section title formatting (SECTION -----)
+\newcommand{\sectiontitle}[1]{\raisebox{-.75 \ht \strutbox}
+{\uppercase{\LARGE{#1}}\hspace{1.5ex}}
+\hrulefill \bigskip}
+
+% --------------------------------------------------
+%                      CONTENT  
+% --------------------------------------------------
+
+\begin{document}
+\pagestyle{fancy}
+
+% ---------------------  TOP  ----------------------
+
+\begin{center}
+    
+    {\LARGE\textbf{GIUSEPPE BALDINI}}
+
+    \smallskip
+    
+    \href{mailto:giuseppebaldini@live.com}{\textbf{giuseppebaldini@live.com}}
+    
+    \smallskip
+    
+    \href{tel:07309865558}{+44 7309 865558}
+
+    \smallskip
+    
+    \href{https://github.com/giuseppebaldini}{\textbf{\faIcon{github}}}\spacedot 
+    \href{https://www.linkedin.com/in/giuseppebaldini/}{\faIcon{linkedin}} 
+ 
+\end{center}
+
+% Remove rule from header
+\renewcommand{\headrulewidth}{0pt}
+
+% ------------------  EXPERIENCE  ------------------
+
+\newcommand{\experience}[9]{
+\href{#2}{\textbf{#1}} \hfill \textbf{#3}
+
+\smallskip
+
+\textit{#4} \hfill #5 - #6
+
+\begin{itemize}
+    \itemsep 0pt 
+    \item #7
+    \item #8
+    \item #9
+\end{itemize}
+}
+
+\input{cv/experience}
+
+% -------------------  EDUCATION -------------------
+
+\newcommand{\education}[8]{
+\textbf{#1}  \hfill \textbf{#2}
+
+\smallskip
+
+\textit{#3} \hfill #4 - #5
+
+\medskip
+
+#6
+ 
+\smallskip
+
+Dissertation: \textit{"#7"}\spacedot Supervisor: #8
+
+\bigskip
+}
+
+\input{cv/education}
+
+% -------------------  PROJECTS  -------------------
+
+\newcommand{\project}[7]{
+\hspace{-4.5px} \href{#5}{\faIcon{#4} \hspace{3pt} \textbf{#1}}  \hfill {#2 - #3}
+
+\begin{itemize}
+    \itemsep 0pt
+    \item #6
+    \item #7
+\end{itemize}
+}
+
+\input{cv/projects}
+
+\medskip
+
+% --------------------  SKILLS  --------------------
+
+% Individual skill category (category name + up to 4 skills)
+\newcommand{\skill}[5]  
+{\textbf{\uppercase{#1}} & #2 & #3 & #4 & #5}
+
+% Skill tabular element comprising up to 5 skill categories
+\newcommand{\skilltabular}[5]{ 
+
+% Adjust column spacing
+\setlength{\tabcolsep}{25pt}
+
+% Adjust row spacing
+\renewcommand{\arraystretch}{1.2}
+
+% Borderless tabular element
+\begin{tabular}{@{}llllll} % First column without margin, left aligned columns
+    #1 \\
+    #2 \\ 
+    #3 \\
+    #4 \\
+    #5 \\ 
+\end{tabular}
+}
+
+\input{cv/skills}
+
+% --------------------  FOOTER  --------------------
+
+% Change left footer offset to match page left margin
+\fancyfootoffset[L]{-5mm}
+
+% Footer content
+\fancyfoot[L]{\href{https://www.gov.uk/view-right-to-work}
+{\normalsize{\faIcon{passport}} \small{EU Settlement Scheme}}}
+
+\fancyfoot[C]{\normalsize{Giuseppe Baldini\spacedot CV}}
+
+\fancyfoot[R]{\href{https://www.gov.uk/view-right-to-work}
+{\small{Made with \fontfamily{cmr}\selectfont \LaTeX \space 
+\normalsize{\faIcon{github}}}}}
+
+\end{document}
+
+%  -------------------------------------------------
+%                       THE END  
+%  -------------------------------------------------
