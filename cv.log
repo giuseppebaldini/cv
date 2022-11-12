@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.4)  9 NOV 2022 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.4)  10 NOV 2022 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -325,9 +325,7 @@ Package hyperref Info: Link coloring OFF on input line 32.
 \openout3 = `cv.out'.
 
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 39.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 39.
+(Font)              scaled to size 20.74pt on input line 39.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 43.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 51.
@@ -341,6 +339,8 @@ File: TS1NotoSans-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSans
 LaTeX Font Info:    Font shape `TS1/NotoSans-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 51.
  (./cv/experience.tex
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Trying to load font information for T1+NotoSansMono-TLF on input line 9.
@@ -386,14 +386,14 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14540 strings out of 475071
- 279979 string characters out of 5778916
+ 279982 string characters out of 5778916
  583080 words of memory out of 5000000
  35761 multiletter control sequences out of 15000+600000
- 499500 words of font info for 57 fonts, out of 8000000 for 9000
+ 499494 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,13n,80p,330b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/noto/a_honops.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/noto/a_cwvxtj.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/noto/a_mz6bs5.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/noto/NotoSans-Bold.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/noto/NotoSans-Italic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/noto/NotoSans-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/noto/NotoSansMono-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on cv.pdf (1 page, 129289 bytes).
+Output written on cv.pdf (1 page, 129313 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream

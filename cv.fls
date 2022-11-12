@@ -632,7 +632,6 @@ OUTPUT cv.out
 OUTPUT cv.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Bold-tlf-t1.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
@@ -650,6 +649,7 @@ INPUT cv/experience.tex
 INPUT ./cv/experience.tex
 INPUT ./cv/experience.tex
 INPUT cv/experience.tex
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/noto/T1NotoSansMono-TLF.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/noto/T1NotoSansMono-TLF.fd
@@ -693,8 +693,8 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/google/noto/NotoSans-Bold-tlf-t1.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Bold-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/google/noto/NotoSans-Regular-tlf-t1.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Regular-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/google/noto/NotoSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/noto/NotoSans-Bold-tlf-t1--base.tfm
