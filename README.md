@@ -55,6 +55,6 @@ To customise this template, simply edit:
 
 1. [`cv.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex) for document-wide setup, custom commands (including section specific), top, header and footer. 
 
-2. `cv/section.tex` for content related to the specific section.
+2. [`cv/section.tex`](https://github.com/giuseppebaldini/cv/tree/main/cv) for content related to the specific section.
 
 **Optional:** it is possible to add packages for additional functionalities (e.g. [`cjk`](https://ctan.org/pkg/cjk) for Asian scripts support) in [`packages.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/packages.tex). The packages will then be available to use throughout the document thanks to [\input](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex#L13).
