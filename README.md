@@ -42,8 +42,8 @@ This is achived by defining custom commands in the main file [`cv.tex`](https://
 This way, only text needs to be input in the relevant file (e.g. [`cv/experience.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv/experience.tex)). 
 
 ```
-\experience{Company}{Website}           {Location}
-{Position}                              {Start}{End}
+\experience{Company}{Website}     {Location}
+{Position}                        {Start}{End}
 {Line 1}
 {Line 2}
 {Line 3}
@@ -57,4 +57,4 @@ To customise this template, simply edit:
 
 2. [`cv/section.tex`](https://github.com/giuseppebaldini/cv/tree/main/cv) for content related to the specific section.
 
-**Optional:** it is possible to add packages for additional functionalities (e.g. [`cjk`](https://ctan.org/pkg/cjk) for Asian scripts support) in [`packages.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/packages.tex). The packages will then be available to use throughout the document thanks to [\input](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex#L13).
+**Optional:** it is possible to add packages for additional functionalities (e.g. [`cjk`](https://ctan.org/pkg/cjk) for Asian scripts support) in [`packages.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/packages.tex). The packages will then be available to use throughout the document thanks to [`\input`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex#L13).
