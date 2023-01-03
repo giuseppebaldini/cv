@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1672580585 "/home/baldo/MEGA/工作/材料/CV/LaTeX/cv.tex" "cv.pdf" "cv" 1672580585
+["pdflatex"] 1672756317 "/home/baldo/MEGA/工作/材料/CV/LaTeX/cv.tex" "cv.pdf" "cv" 1672756318
   "/home/baldo/MEGA/工作/材料/CV/LaTeX/cv.tex" 1668432174 3535 26e584f8455903b789a1e5f9343d3994 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -115,11 +115,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1664895010 4596499 68637d504fbeb91e512431b62003567c ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664895040 3058864 53f4d603bb8bb7470af901f296dd6c0f ""
   "/usr/local/texlive/2022/texmf.cnf" 1664895007 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "cv.aux" 1672580585 634 dae04709ba649dfc3b6dcbd4618c9067 "pdflatex"
+  "cv.aux" 1672756318 634 dae04709ba649dfc3b6dcbd4618c9067 "pdflatex"
   "cv.out" 0 -1 0 "pdflatex"
   "cv.tex" 1668432174 3535 26e584f8455903b789a1e5f9343d3994 ""
   "cv/education.tex" 1667999459 1035 a910cf9c9a52c10509f04706cc0479c0 ""
-  "cv/experience.tex" 1672580584 2143 10bc8d97ae1340fee95d1b843cdeb39f ""
+  "cv/experience.tex" 1672756317 2147 8dd86d7c8968ac7ed32f8240a0a9c401 ""
   "cv/projects.tex" 1672579016 1174 884270b5f7977e23945adc46bbc48f1b ""
   "cv/skills.tex" 1668000217 546 ee27622821a23f3383607f1137c3e6d3 ""
   "packages.tex" 1668538557 595 5f1b2a31febbc1df292e3c77c2891bf5 ""
