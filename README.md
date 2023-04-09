@@ -20,7 +20,7 @@ This template is designed with editability in mind.
 
 The basic idea is to separate as much as possible content and format.
 
-This is achived by defining custom commands in the main file [`cv.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex) which define the formatting and structure of a reusable item for every section (e.g. work experience in the [experience section](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex#L59)).
+This is achieved by creating custom commands in the main file [`cv.tex`](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex) which define the formatting and structure of a reusable item for every section (e.g. work experience in the [experience section](https://github.com/giuseppebaldini/cv/blob/7ddf577e7542d0efb781cbc881355001670e4951/cv.tex#L59)).
 
 ```
 \newcommand{\experience}[9]{
